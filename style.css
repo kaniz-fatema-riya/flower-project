@@ -184,8 +184,11 @@ input[type="email"] {
 .home ul{
     display:grid;
     grid-template-columns:repeat(2,1fr);
-    column-gap: 20px;
+    column-gap: 25px;
     list-style: none;
+}
+.home a{
+    text-decoration: none;
 }
 .link img{
     margin-right: 20px;
