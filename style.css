@@ -258,13 +258,13 @@ input[type="email"] {
         
         max-width:400px;
         width:100%;
-        padding:160px 00px 100px 0;
+        padding:100px 0px 100px 0;
         
         
     }
    
     .subcription h1{
-           font-size:1em;
+           font-size:1.4em;
         }
     .subcription form{
         width: 312px;
@@ -296,7 +296,7 @@ input[type="email"] {
         height: 175px;
      }
      .big{
-        height: 174px;
+        height: 170px;
      }
     
 
