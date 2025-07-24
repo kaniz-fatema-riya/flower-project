@@ -10,6 +10,10 @@ body{
     margin: 0;
     padding: 0;
 }
+a:hover{
+    color: rgba(0, 0, 255, 0.363);
+
+}
 .section{
     max-width:1140px;
     width: 100%;
