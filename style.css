@@ -1,4 +1,4 @@
-
+/* Common CSS */
 .noto-serif {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -23,7 +23,7 @@ p{
 }
 h2{
     font-size: 38px;
-    /* font-weight: 500; */
+    
 }
 .text-center{
     text-align: center;
@@ -98,6 +98,46 @@ main ul li::marker{
     right: -350px;
     bottom: -150px;
 }
+
+/* Latest Deal Section */
+.latest-deal{
+    
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap:16px;
+}
+.small-cards{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+.big{
+    height: 416px;
+}
+
+.big h3{
+    font-size: 2.5rem;
+}
+.deal-card{
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(30%);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    height: 147px;
+
+}
+.deal-card h4{
+    text-decoration: underline ;
+}
+
+
 /* Subscription Section Start */
 .subcription{
     max-width:1440px;
@@ -127,6 +167,8 @@ input[type="email"] {
     border: none;
     cursor: pointer;
 }
+
+/* Footer Section Start */
 
 .end{
   display: flex;
@@ -172,11 +214,12 @@ input[type="email"] {
     .hero{
         display: flex;
         flex-direction: column-reverse;
-        img{
-          max-width: 393px ;
+      
+    }
+    .hero-img img{
+          max-width: 400px;
           width: 100%;
           height: auto;
-        }
     }
     .section{
         max-width: 365px;
