@@ -226,6 +226,17 @@ input[type="email"] {
         padding-left: 30px;
     }
 
-    
+    .end{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .home ul{
+        display:grid;
+        grid-template-columns:repeat(1,1fr);
+    }
+    .content{
+    width:300px;
+}
 
  }
