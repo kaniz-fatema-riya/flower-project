@@ -6,6 +6,10 @@
   font-style: normal;
   font-variation-settings:"wdth" 100;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 .section{
     max-width:1140px;
     width: 100%;
@@ -94,6 +98,37 @@ main ul li::marker{
     right: -350px;
     bottom: -150px;
 }
+
+.subcription{
+    max-width:1440px;
+    width:100%;
+    margin: 0 auto;
+    background-image: url(images/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+    color: white;
+    margin-top:20px;
+
+}
+.subcription h1{
+        font-size: 40px;
+}
+input[type="email"] {
+    padding: 10px;
+    width: 350px;
+    border:none;
+}
+.subcription button{
+    padding:10px 20px;
+    background-color: #E95A08;
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+
+
 /* Responsive Start */
  @media screen and (max-width:400px){
     body{
@@ -153,7 +188,23 @@ main ul li::marker{
         display: none;
     }
 
-    
+    .subcription{
+        
+        max-width:400px;
+        width:100%;
+        padding:160px 00px 100px 0;
+        
+        
+    }
+   
+    .subcription h1{
+           font-size:1em;
+        }
+    .subcription form{
+        width: 312px;
+        display: flex;
+        padding-left: 30px;
+    }
 
     
 
